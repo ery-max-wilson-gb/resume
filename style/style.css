@@ -1,0 +1,20 @@
+header
+{
+    display:flex;
+    align-items: center;
+    justify-content:space-around;
+    flex-direction: row;
+    background-color:cadetblue;
+}
+
+img
+{
+    width:200px;
+    height:auto;
+    padding:10px;
+    
+}
+body
+{
+    
+}
