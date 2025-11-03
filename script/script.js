@@ -6,4 +6,16 @@ function get_year()
     span_year.textContent = year;
 }
 
+function get_pdf()
+{
+    let pdf_button = document.getElementById("b_download_pdf");
+    pdf_button.addEventListener("click",download_pdf);
+}
+
+function download_pdf()
+{
+   window.print()
+}
+
 get_year();
+get_pdf();
